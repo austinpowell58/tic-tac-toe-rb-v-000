@@ -121,6 +121,7 @@ def play(board)
 until over?(board) do
   turn(board)
 end 
+<<<<<<< HEAD
 if won?(board)
   champion = winner(board)
   puts "Congratulations #{champion}!"
@@ -128,6 +129,8 @@ else if draw?(board)
   puts "Cat's Game!"
   end
 end 
+=======
+>>>>>>> a8c2130ddab5b7a26fa5c4a1f911889bb9b918df
 end 
 
     
